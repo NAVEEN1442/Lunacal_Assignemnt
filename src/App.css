@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.gradient-hover {
+  background: linear-gradient(90deg, #272728 0%, #96bee7 100%);
+  background-size: 200% 100%;
+  background-position: 0% 0%;
+  transition: background-position 0.3s ease-in-out;
+}
+.hover:bg-custom-gradient {
+  background-position: 100% 0%;
+}
